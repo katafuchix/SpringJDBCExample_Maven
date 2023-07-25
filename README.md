@@ -3,6 +3,8 @@
 - resource/spring.xml
 
 ```
+mysql > create database TestDB;
+
 mysql> CREATE TABLE `Employee` (
        `id` int(11) unsigned NOT NULL,
        `name` varchar(20) DEFAULT NULL,
